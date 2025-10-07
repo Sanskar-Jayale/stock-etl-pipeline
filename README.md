@@ -88,7 +88,7 @@ real-time-stocks-pipeline/
 ### **2. Live Market Data Producer**
 - Developed **Python producer script** `stock_producer.py` to fetch **real-time stock prices** from the **Finnhub API** using an API key.
 - Streams stock data into Kafka in JSON format.
-- [Producer Code](producer/producer.py)
+- [Producer Code](https://github.com/Sanskar-Jayale/stock-etl-pipeline/blob/main/infra/producer/producer.py)
 
 ---
 
@@ -96,7 +96,7 @@ real-time-stocks-pipeline/
 - Built **Python consumer script** `stock_consumer.py` to consume streaming data from Kafka.
 - Stored consumed data into **MinIO buckets** (S3-compatible storage).
 - Organized storage into folders for **raw/bronze layer ingestion**.
-- [Consumer Code](consumer/consumer.py)
+- [Consumer Code](https://github.com/Sanskar-Jayale/stock-etl-pipeline/blob/main/infra/consumer/consumer.py)
 
 ---
 
@@ -105,7 +105,7 @@ real-time-stocks-pipeline/
 - Created DAG (`stock_pipeline_dag.py`) to:
   - Load data from MinIO into **Snowflake staging tables** (Bronze).
   - Schedule automated runs every **1 minute**.
-- [Airflow DAGs](dag/minio_to_snowflake.py)
+- [Airflow DAGs](https://github.com/Sanskar-Jayale/stock-etl-pipeline/blob/main/infra/dags/minio_to_snowflake.py)
 
 ---
 
@@ -120,9 +120,9 @@ real-time-stocks-pipeline/
 ### **6. DBT Transformations**
 - Configured **DBT project** with Snowflake connection.
 - Models include:
-  - [**Bronze models**](dbt_stocks/models/bronze/bronze_stg_stock_quotes.sql) → raw structured data  
-  - [**Silver models**](dbt_stocks/models/silver/silver_clean_stock_quotes.sql) → cleaned, validated data  
-  - [**Gold models**](dbt_stocks/models/gold) → analytical views (Candlestick, KPI, Tree Map)
+  - [**Bronze models**](https://github.com/Sanskar-Jayale/stock-etl-pipeline/blob/main/infra/dbt_stocks/dbt_stocks/models/bronze/bronze_stg_stocks_quote.sql) → raw structured data  
+  - [**Silver models**](https://github.com/Sanskar-Jayale/stock-etl-pipeline/blob/main/infra/dbt_stocks/dbt_stocks/models/silver/silver_clean_stock_quotes.sql) → cleaned, validated data  
+  - [**Gold models**](https://github.com/Sanskar-Jayale/stock-etl-pipeline/tree/main/infra/dbt_stocks/dbt_stocks/models/gold) → analytical views (Candlestick, KPI, Tree Map)
       
 
 ---
