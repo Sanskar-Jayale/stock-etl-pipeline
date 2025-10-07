@@ -1,0 +1,70 @@
+[2025-10-07T09:12:30.994+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-07T09:12:31.019+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-07T09:06:00+00:00 [queued]>
+[2025-10-07T09:12:31.028+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-07T09:06:00+00:00 [queued]>
+[2025-10-07T09:12:31.029+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-07T09:12:31.041+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_snowflake> on 2025-10-07 09:06:00+00:00
+[2025-10-07T09:12:31.049+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'minio_to_snowflake', 'load_snowflake', 'scheduled__2025-10-07T09:06:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/minio_to_snowflake.py', '--cfg-path', '/tmp/tmp6wj29zw_']
+[2025-10-07T09:12:31.051+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=23695) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-07T09:12:31.052+0000] {standard_task_runner.py:91} INFO - Job 49: Subtask load_snowflake
+[2025-10-07T09:12:31.053+0000] {standard_task_runner.py:64} INFO - Started process 23708 to run task
+[2025-10-07T09:12:31.118+0000] {task_command.py:426} INFO - Running <TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-07T09:06:00+00:00 [running]> on host 24b9f9b681d0
+[2025-10-07T09:12:31.200+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='minio_to_snowflake' AIRFLOW_CTX_TASK_ID='load_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-10-07T09:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-07T09:06:00+00:00'
+[2025-10-07T09:12:31.201+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-07T09:12:31.223+0000] {connection.py:408} INFO - Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-07T09:12:31.224+0000] {connection.py:1258} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-07T09:12:33.077+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738383.json to Snowflake stage
+[2025-10-07T09:12:33.611+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738397.json to Snowflake stage
+[2025-10-07T09:12:34.092+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738410.json to Snowflake stage
+[2025-10-07T09:12:34.551+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738431.json to Snowflake stage
+[2025-10-07T09:12:35.059+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738457.json to Snowflake stage
+[2025-10-07T09:12:35.558+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738476.json to Snowflake stage
+[2025-10-07T09:12:36.283+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738494.json to Snowflake stage
+[2025-10-07T09:12:36.899+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738512.json to Snowflake stage
+[2025-10-07T09:12:37.394+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738540.json to Snowflake stage
+[2025-10-07T09:12:37.963+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738577.json to Snowflake stage
+[2025-10-07T09:12:38.670+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738618.json to Snowflake stage
+[2025-10-07T09:12:39.257+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738633.json to Snowflake stage
+[2025-10-07T09:12:39.764+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738648.json to Snowflake stage
+[2025-10-07T09:12:40.244+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738662.json to Snowflake stage
+[2025-10-07T09:12:40.741+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738675.json to Snowflake stage
+[2025-10-07T09:12:41.206+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738689.json to Snowflake stage
+[2025-10-07T09:13:50.275+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x756630b314c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /queries/v1/query-request?requestId=0dcf3d74-12d9-48b4-a81c-4a8582b527ce&clientStartTime=1759828361207&retryCount=1&retryReason=None&request_guid=7d78ab5a-d60b-4d84-a33b-6bb3d667e8b0
+[2025-10-07T09:14:03.281+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x756630b30410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /queries/v1/query-request?requestId=0dcf3d74-12d9-48b4-a81c-4a8582b527ce&clientStartTime=1759828361207&retryCount=2&retryReason=None&request_guid=1a8525fe-f00b-4c2d-8f34-c36fddd40f6d
+[2025-10-07T09:14:23.300+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x756630b317c0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=0dcf3d74-12d9-48b4-a81c-4a8582b527ce&clientStartTime=1759828361207&retryCount=3&retryReason=None&request_guid=7bcb0fd8-2eed-4de9-9434-450e7554c043
+[2025-10-07T09:14:28.310+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x756630b32330>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=0dcf3d74-12d9-48b4-a81c-4a8582b527ce&clientStartTime=1759828361207&retryCount=4&retryReason=None&request_guid=4b273dfa-9d78-4e90-b9a9-129eedbd99af
+[2025-10-07T09:14:49.319+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7566369f2870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /queries/v1/query-request?requestId=0dcf3d74-12d9-48b4-a81c-4a8582b527ce&clientStartTime=1759828361207&retryCount=5&retryReason=None&request_guid=eeeb5c5f-e804-411e-bce1-2757ed982e3d
+[2025-10-07T09:14:50.577+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-07T09:14:50.577+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/minio_to_snowflake.py", line 56, in load_to_snowflake
+    cur.execute(f"PUT file://{f} @%bronze_stock_quotes_raw")
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1080, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 345, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000612 (02000): None: Result not found
+[2025-10-07T09:14:50.588+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=minio_to_snowflake, task_id=load_snowflake, run_id=scheduled__2025-10-07T09:06:00+00:00, execution_date=20251007T090600, start_date=20251007T091231, end_date=20251007T091450
+[2025-10-07T09:14:50.600+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 49 for task load_snowflake (000612 (02000): None: Result not found; 23708)
+[2025-10-07T09:14:50.622+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-10-07T09:14:50.637+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-07T09:14:50.640+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

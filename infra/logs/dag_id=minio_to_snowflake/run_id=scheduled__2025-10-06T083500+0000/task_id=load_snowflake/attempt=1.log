@@ -1,0 +1,325 @@
+[2025-10-06T08:42:58.468+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-06T08:42:58.497+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-06T08:35:00+00:00 [queued]>
+[2025-10-06T08:42:58.508+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-06T08:35:00+00:00 [queued]>
+[2025-10-06T08:42:58.509+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-06T08:42:58.529+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_snowflake> on 2025-10-06 08:35:00+00:00
+[2025-10-06T08:42:58.545+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'minio_to_snowflake', 'load_snowflake', 'scheduled__2025-10-06T08:35:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/minio_to_snowflake.py', '--cfg-path', '/tmp/tmpnpfto3je']
+[2025-10-06T08:42:58.552+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=3590) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-06T08:42:58.553+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask load_snowflake
+[2025-10-06T08:42:58.553+0000] {standard_task_runner.py:64} INFO - Started process 3602 to run task
+[2025-10-06T08:42:58.651+0000] {task_command.py:426} INFO - Running <TaskInstance: minio_to_snowflake.load_snowflake scheduled__2025-10-06T08:35:00+00:00 [running]> on host 24b9f9b681d0
+[2025-10-06T08:42:58.787+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='minio_to_snowflake' AIRFLOW_CTX_TASK_ID='load_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-10-06T08:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-06T08:35:00+00:00'
+[2025-10-06T08:42:58.789+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-06T08:42:58.835+0000] {connection.py:408} INFO - Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-06T08:42:58.837+0000] {connection.py:1258} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-06T08:43:02.039+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738383.json to Snowflake stage
+[2025-10-06T08:43:02.535+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738397.json to Snowflake stage
+[2025-10-06T08:43:03.073+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738410.json to Snowflake stage
+[2025-10-06T08:43:03.627+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738431.json to Snowflake stage
+[2025-10-06T08:43:04.910+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738457.json to Snowflake stage
+[2025-10-06T08:43:05.468+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738476.json to Snowflake stage
+[2025-10-06T08:43:06.090+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738494.json to Snowflake stage
+[2025-10-06T08:43:06.755+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738512.json to Snowflake stage
+[2025-10-06T08:43:07.375+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738540.json to Snowflake stage
+[2025-10-06T08:43:08.753+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738577.json to Snowflake stage
+[2025-10-06T08:43:09.798+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738618.json to Snowflake stage
+[2025-10-06T08:43:10.339+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738633.json to Snowflake stage
+[2025-10-06T08:43:11.043+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738648.json to Snowflake stage
+[2025-10-06T08:43:11.614+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738662.json to Snowflake stage
+[2025-10-06T08:43:12.267+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738675.json to Snowflake stage
+[2025-10-06T08:43:13.860+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738689.json to Snowflake stage
+[2025-10-06T08:43:15.090+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738703.json to Snowflake stage
+[2025-10-06T08:43:15.995+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738717.json to Snowflake stage
+[2025-10-06T08:43:17.217+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738732.json to Snowflake stage
+[2025-10-06T08:43:18.708+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738747.json to Snowflake stage
+[2025-10-06T08:43:20.177+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738763.json to Snowflake stage
+[2025-10-06T08:43:21.086+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738778.json to Snowflake stage
+[2025-10-06T08:43:21.770+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738807.json to Snowflake stage
+[2025-10-06T08:43:22.182+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738823.json to Snowflake stage
+[2025-10-06T08:43:22.692+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738840.json to Snowflake stage
+[2025-10-06T08:43:23.444+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738860.json to Snowflake stage
+[2025-10-06T08:43:24.776+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738880.json to Snowflake stage
+[2025-10-06T08:43:25.493+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738897.json to Snowflake stage
+[2025-10-06T08:43:25.985+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738916.json to Snowflake stage
+[2025-10-06T08:43:27.029+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738943.json to Snowflake stage
+[2025-10-06T08:43:28.534+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738959.json to Snowflake stage
+[2025-10-06T08:43:29.512+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738973.json to Snowflake stage
+[2025-10-06T08:43:30.061+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738989.json to Snowflake stage
+[2025-10-06T08:43:31.023+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739009.json to Snowflake stage
+[2025-10-06T08:43:31.637+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739029.json to Snowflake stage
+[2025-10-06T08:43:32.065+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739055.json to Snowflake stage
+[2025-10-06T08:43:32.509+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739075.json to Snowflake stage
+[2025-10-06T08:43:32.923+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739097.json to Snowflake stage
+[2025-10-06T08:43:33.851+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739117.json to Snowflake stage
+[2025-10-06T08:43:34.349+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739134.json to Snowflake stage
+[2025-10-06T08:43:34.735+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739151.json to Snowflake stage
+[2025-10-06T08:43:35.507+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739169.json to Snowflake stage
+[2025-10-06T08:43:36.958+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739187.json to Snowflake stage
+[2025-10-06T08:43:37.907+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739204.json to Snowflake stage
+[2025-10-06T08:43:38.700+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739225.json to Snowflake stage
+[2025-10-06T08:43:39.514+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739242.json to Snowflake stage
+[2025-10-06T08:43:40.249+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739260.json to Snowflake stage
+[2025-10-06T08:43:41.364+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739276.json to Snowflake stage
+[2025-10-06T08:43:41.979+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739290.json to Snowflake stage
+[2025-10-06T08:43:42.597+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739304.json to Snowflake stage
+[2025-10-06T08:43:43.924+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739319.json to Snowflake stage
+[2025-10-06T08:43:44.537+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739333.json to Snowflake stage
+[2025-10-06T08:43:45.358+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739346.json to Snowflake stage
+[2025-10-06T08:43:46.143+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739360.json to Snowflake stage
+[2025-10-06T08:43:47.824+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739375.json to Snowflake stage
+[2025-10-06T08:43:48.635+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739391.json to Snowflake stage
+[2025-10-06T08:43:49.091+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739406.json to Snowflake stage
+[2025-10-06T08:43:49.666+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739425.json to Snowflake stage
+[2025-10-06T08:43:50.373+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739439.json to Snowflake stage
+[2025-10-06T08:43:51.199+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739452.json to Snowflake stage
+[2025-10-06T08:43:52.219+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739468.json to Snowflake stage
+[2025-10-06T08:43:52.876+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739481.json to Snowflake stage
+[2025-10-06T08:43:53.561+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739495.json to Snowflake stage
+[2025-10-06T08:43:54.166+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739513.json to Snowflake stage
+[2025-10-06T08:43:55.087+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739528.json to Snowflake stage
+[2025-10-06T08:43:56.009+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739545.json to Snowflake stage
+[2025-10-06T08:43:56.649+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739561.json to Snowflake stage
+[2025-10-06T08:43:57.198+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739589.json to Snowflake stage
+[2025-10-06T08:43:57.752+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739644.json to Snowflake stage
+[2025-10-06T08:43:58.466+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739662.json to Snowflake stage
+[2025-10-06T08:43:59.486+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739678.json to Snowflake stage
+[2025-10-06T08:44:00.311+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739697.json to Snowflake stage
+[2025-10-06T08:44:01.127+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739713.json to Snowflake stage
+[2025-10-06T08:44:01.950+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739732.json to Snowflake stage
+[2025-10-06T08:44:02.521+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739749.json to Snowflake stage
+[2025-10-06T08:44:03.073+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739765.json to Snowflake stage
+[2025-10-06T08:44:03.680+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738390.json to Snowflake stage
+[2025-10-06T08:44:04.503+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738403.json to Snowflake stage
+[2025-10-06T08:44:06.176+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738420.json to Snowflake stage
+[2025-10-06T08:44:06.698+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738449.json to Snowflake stage
+[2025-10-06T08:44:07.550+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738469.json to Snowflake stage
+[2025-10-06T08:44:08.678+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738486.json to Snowflake stage
+[2025-10-06T08:44:09.216+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738503.json to Snowflake stage
+[2025-10-06T08:44:09.834+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738523.json to Snowflake stage
+[2025-10-06T08:44:10.546+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738567.json to Snowflake stage
+[2025-10-06T08:44:11.371+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738600.json to Snowflake stage
+[2025-10-06T08:44:11.954+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738625.json to Snowflake stage
+[2025-10-06T08:44:12.500+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738640.json to Snowflake stage
+[2025-10-06T08:44:13.007+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738655.json to Snowflake stage
+[2025-10-06T08:44:13.826+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738668.json to Snowflake stage
+[2025-10-06T08:44:14.648+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738681.json to Snowflake stage
+[2025-10-06T08:44:15.465+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738696.json to Snowflake stage
+[2025-10-06T08:44:15.930+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738709.json to Snowflake stage
+[2025-10-06T08:44:16.501+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738724.json to Snowflake stage
+[2025-10-06T08:44:17.909+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738739.json to Snowflake stage
+[2025-10-06T08:44:18.412+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738755.json to Snowflake stage
+[2025-10-06T08:44:19.679+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738771.json to Snowflake stage
+[2025-10-06T08:44:21.389+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738798.json to Snowflake stage
+[2025-10-06T08:44:21.958+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738815.json to Snowflake stage
+[2025-10-06T08:44:23.621+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738832.json to Snowflake stage
+[2025-10-06T08:44:24.533+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738851.json to Snowflake stage
+[2025-10-06T08:44:24.988+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738872.json to Snowflake stage
+[2025-10-06T08:44:25.950+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738887.json to Snowflake stage
+[2025-10-06T08:44:26.588+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738906.json to Snowflake stage
+[2025-10-06T08:44:27.006+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738934.json to Snowflake stage
+[2025-10-06T08:44:27.738+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738951.json to Snowflake stage
+[2025-10-06T08:44:28.514+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738965.json to Snowflake stage
+[2025-10-06T08:44:29.007+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738981.json to Snowflake stage
+[2025-10-06T08:44:29.599+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738999.json to Snowflake stage
+[2025-10-06T08:44:30.016+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739021.json to Snowflake stage
+[2025-10-06T08:44:31.316+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739045.json to Snowflake stage
+[2025-10-06T08:44:32.180+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739067.json to Snowflake stage
+[2025-10-06T08:44:33.114+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739087.json to Snowflake stage
+[2025-10-06T08:44:33.599+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739108.json to Snowflake stage
+[2025-10-06T08:44:34.407+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739126.json to Snowflake stage
+[2025-10-06T08:44:34.819+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739143.json to Snowflake stage
+[2025-10-06T08:44:35.228+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739159.json to Snowflake stage
+[2025-10-06T08:44:35.637+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739178.json to Snowflake stage
+[2025-10-06T08:44:36.299+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739195.json to Snowflake stage
+[2025-10-06T08:44:37.090+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739215.json to Snowflake stage
+[2025-10-06T08:44:37.769+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739234.json to Snowflake stage
+[2025-10-06T08:44:38.186+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739252.json to Snowflake stage
+[2025-10-06T08:44:38.915+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739268.json to Snowflake stage
+[2025-10-06T08:44:39.904+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739282.json to Snowflake stage
+[2025-10-06T08:44:40.655+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739296.json to Snowflake stage
+[2025-10-06T08:44:41.267+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739311.json to Snowflake stage
+[2025-10-06T08:44:41.683+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739325.json to Snowflake stage
+[2025-10-06T08:44:42.273+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739339.json to Snowflake stage
+[2025-10-06T08:44:42.722+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739352.json to Snowflake stage
+[2025-10-06T08:44:43.515+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739366.json to Snowflake stage
+[2025-10-06T08:44:44.033+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739383.json to Snowflake stage
+[2025-10-06T08:44:44.770+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739397.json to Snowflake stage
+[2025-10-06T08:44:45.467+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739418.json to Snowflake stage
+[2025-10-06T08:44:46.655+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739431.json to Snowflake stage
+[2025-10-06T08:44:47.131+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739445.json to Snowflake stage
+[2025-10-06T08:44:47.589+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739459.json to Snowflake stage
+[2025-10-06T08:44:48.949+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739473.json to Snowflake stage
+[2025-10-06T08:44:49.340+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739487.json to Snowflake stage
+[2025-10-06T08:44:49.925+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739504.json to Snowflake stage
+[2025-10-06T08:44:50.358+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739520.json to Snowflake stage
+[2025-10-06T08:44:50.987+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739537.json to Snowflake stage
+[2025-10-06T08:44:52.226+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739553.json to Snowflake stage
+[2025-10-06T08:44:52.832+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739581.json to Snowflake stage
+[2025-10-06T08:44:53.762+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739597.json to Snowflake stage
+[2025-10-06T08:44:54.205+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739636.json to Snowflake stage
+[2025-10-06T08:44:54.701+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739653.json to Snowflake stage
+[2025-10-06T08:44:55.697+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739670.json to Snowflake stage
+[2025-10-06T08:44:56.322+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739688.json to Snowflake stage
+[2025-10-06T08:44:56.833+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739705.json to Snowflake stage
+[2025-10-06T08:44:57.443+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739724.json to Snowflake stage
+[2025-10-06T08:44:58.220+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739740.json to Snowflake stage
+[2025-10-06T08:44:58.763+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739757.json to Snowflake stage
+[2025-10-06T08:44:59.392+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739774.json to Snowflake stage
+[2025-10-06T08:44:59.955+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738388.json to Snowflake stage
+[2025-10-06T08:45:00.585+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738401.json to Snowflake stage
+[2025-10-06T08:45:01.342+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738414.json to Snowflake stage
+[2025-10-06T08:45:01.856+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738445.json to Snowflake stage
+[2025-10-06T08:45:02.466+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738466.json to Snowflake stage
+[2025-10-06T08:45:04.103+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738482.json to Snowflake stage
+[2025-10-06T08:45:04.653+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738501.json to Snowflake stage
+[2025-10-06T08:45:05.256+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738519.json to Snowflake stage
+[2025-10-06T08:45:05.763+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738562.json to Snowflake stage
+[2025-10-06T08:45:06.154+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738598.json to Snowflake stage
+[2025-10-06T08:45:06.663+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738623.json to Snowflake stage
+[2025-10-06T08:45:08.629+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738638.json to Snowflake stage
+[2025-10-06T08:45:09.124+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738653.json to Snowflake stage
+[2025-10-06T08:45:09.754+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738666.json to Snowflake stage
+[2025-10-06T08:45:10.370+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738679.json to Snowflake stage
+[2025-10-06T08:45:10.906+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738695.json to Snowflake stage
+[2025-10-06T08:45:11.643+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738708.json to Snowflake stage
+[2025-10-06T08:45:12.195+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738722.json to Snowflake stage
+[2025-10-06T08:45:13.465+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738737.json to Snowflake stage
+[2025-10-06T08:45:13.949+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738753.json to Snowflake stage
+[2025-10-06T08:45:14.508+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738769.json to Snowflake stage
+[2025-10-06T08:45:15.325+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738784.json to Snowflake stage
+[2025-10-06T08:45:15.984+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738813.json to Snowflake stage
+[2025-10-06T08:45:16.497+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738828.json to Snowflake stage
+[2025-10-06T08:45:17.325+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738849.json to Snowflake stage
+[2025-10-06T08:45:18.054+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738869.json to Snowflake stage
+[2025-10-06T08:45:18.542+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738886.json to Snowflake stage
+[2025-10-06T08:45:19.513+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738905.json to Snowflake stage
+[2025-10-06T08:45:20.059+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738931.json to Snowflake stage
+[2025-10-06T08:45:20.585+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738949.json to Snowflake stage
+[2025-10-06T08:45:21.125+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738963.json to Snowflake stage
+[2025-10-06T08:45:21.784+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738979.json to Snowflake stage
+[2025-10-06T08:45:22.209+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738997.json to Snowflake stage
+[2025-10-06T08:45:22.945+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739019.json to Snowflake stage
+[2025-10-06T08:45:23.377+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739042.json to Snowflake stage
+[2025-10-06T08:45:23.869+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739062.json to Snowflake stage
+[2025-10-06T08:45:24.499+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739085.json to Snowflake stage
+[2025-10-06T08:45:24.930+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739104.json to Snowflake stage
+[2025-10-06T08:45:25.411+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739124.json to Snowflake stage
+[2025-10-06T08:45:26.227+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739140.json to Snowflake stage
+[2025-10-06T08:45:26.732+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739157.json to Snowflake stage
+[2025-10-06T08:45:27.296+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739176.json to Snowflake stage
+[2025-10-06T08:45:27.889+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739193.json to Snowflake stage
+[2025-10-06T08:45:28.338+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739211.json to Snowflake stage
+[2025-10-06T08:45:28.884+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739231.json to Snowflake stage
+[2025-10-06T08:45:29.501+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739250.json to Snowflake stage
+[2025-10-06T08:45:30.601+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739266.json to Snowflake stage
+[2025-10-06T08:45:31.199+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739280.json to Snowflake stage
+[2025-10-06T08:45:31.740+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739295.json to Snowflake stage
+[2025-10-06T08:45:32.346+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739309.json to Snowflake stage
+[2025-10-06T08:45:32.928+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739324.json to Snowflake stage
+[2025-10-06T08:45:33.594+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739337.json to Snowflake stage
+[2025-10-06T08:45:34.021+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739351.json to Snowflake stage
+[2025-10-06T08:45:34.714+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739364.json to Snowflake stage
+[2025-10-06T08:45:35.447+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739380.json to Snowflake stage
+[2025-10-06T08:45:36.152+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739395.json to Snowflake stage
+[2025-10-06T08:45:36.584+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739416.json to Snowflake stage
+[2025-10-06T08:45:37.179+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739430.json to Snowflake stage
+[2025-10-06T08:45:37.591+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739443.json to Snowflake stage
+[2025-10-06T08:45:38.375+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739457.json to Snowflake stage
+[2025-10-06T08:45:38.933+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739472.json to Snowflake stage
+[2025-10-06T08:45:39.964+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739485.json to Snowflake stage
+[2025-10-06T08:45:40.560+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739502.json to Snowflake stage
+[2025-10-06T08:45:41.110+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739519.json to Snowflake stage
+[2025-10-06T08:45:41.788+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739534.json to Snowflake stage
+[2025-10-06T08:45:42.335+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739551.json to Snowflake stage
+[2025-10-06T08:45:42.865+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739578.json to Snowflake stage
+[2025-10-06T08:45:43.938+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739594.json to Snowflake stage
+[2025-10-06T08:45:44.460+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739634.json to Snowflake stage
+[2025-10-06T08:45:45.270+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739650.json to Snowflake stage
+[2025-10-06T08:45:45.782+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739668.json to Snowflake stage
+[2025-10-06T08:45:46.499+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739685.json to Snowflake stage
+[2025-10-06T08:45:47.544+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739703.json to Snowflake stage
+[2025-10-06T08:45:48.239+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739719.json to Snowflake stage
+[2025-10-06T08:45:48.626+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739738.json to Snowflake stage
+[2025-10-06T08:45:49.297+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739755.json to Snowflake stage
+[2025-10-06T08:45:49.871+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759739772.json to Snowflake stage
+[2025-10-06T08:45:51.004+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738384.json to Snowflake stage
+[2025-10-06T08:45:51.701+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738399.json to Snowflake stage
+[2025-10-06T08:45:52.390+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738411.json to Snowflake stage
+[2025-10-06T08:45:52.832+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738435.json to Snowflake stage
+[2025-10-06T08:45:53.362+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738459.json to Snowflake stage
+[2025-10-06T08:45:53.976+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738479.json to Snowflake stage
+[2025-10-06T08:45:54.795+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738496.json to Snowflake stage
+[2025-10-06T08:45:55.702+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738513.json to Snowflake stage
+[2025-10-06T08:45:56.449+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738591.json to Snowflake stage
+[2025-10-06T08:45:57.048+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738620.json to Snowflake stage
+[2025-10-06T08:45:57.439+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738634.json to Snowflake stage
+[2025-10-06T08:45:57.919+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738650.json to Snowflake stage
+[2025-10-06T08:45:58.539+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738664.json to Snowflake stage
+[2025-10-06T08:45:59.450+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738677.json to Snowflake stage
+[2025-10-06T08:46:01.415+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738692.json to Snowflake stage
+[2025-10-06T08:46:02.486+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738705.json to Snowflake stage
+[2025-10-06T08:46:04.120+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738719.json to Snowflake stage
+[2025-10-06T08:46:07.201+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738734.json to Snowflake stage
+[2025-10-06T08:46:09.146+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738749.json to Snowflake stage
+[2025-10-06T08:46:11.621+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738765.json to Snowflake stage
+[2025-10-06T08:46:12.898+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738780.json to Snowflake stage
+[2025-10-06T08:46:14.826+0000] {logging_mixin.py:188} INFO - Uploaded /tmp/minio_downloads/1759738809.json to Snowflake stage
+[2025-10-06T08:46:15.019+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab26b2ede0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&request_guid=b89f7642-45e8-4b70-a5e5-f019a4c132ef
+[2025-10-06T08:46:16.179+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab26922480>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&clientStartTime=1759740374916&retryCount=1&retryReason=None&request_guid=13f750c1-b62a-4d2a-a0d8-483eb861ca9b
+[2025-10-06T08:46:16.257+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab26923f80>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&clientStartTime=1759740374916&retryCount=2&retryReason=None&request_guid=22bb7aea-d9b0-4ead-bd75-e447aa3349b4
+[2025-10-06T17:28:03.448+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab269629f0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&clientStartTime=1759740374916&retryCount=3&retryReason=None&request_guid=c0adc74d-3266-4938-a95d-152e00ec0cd9
+[2025-10-06T17:28:11.306+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab26962c60>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&clientStartTime=1759740374916&retryCount=4&retryReason=None&request_guid=4f349f41-7dda-47ec-a5ec-243da5d14416
+[2025-10-06T17:28:29.327+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x77ab2685df70>: Failed to establish a new connection: [Errno -2] Name or service not known')': /queries/v1/query-request?requestId=5dc44ef2-dd79-4979-ba85-86e5cf72b3ef&clientStartTime=1759740374916&retryCount=5&retryReason=None&request_guid=940d6068-e5c4-4f11-92d9-e793844b156e
+[2025-10-06T17:29:01.725+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-06T17:29:01.727+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 755, in _post_request
+    ret = self._renew_session()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 529, in _renew_session
+    return self._token_request(REQUEST_TYPE_RENEW)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 584, in _token_request
+    raise ReauthenticationRequest(
+snowflake.connector.network.ReauthenticationRequest: 390114 (08001): None: Authentication token has expired.  The user must authenticate again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/minio_to_snowflake.py", line 56, in load_to_snowflake
+    cur.execute(f"PUT file://{f} @%bronze_stock_quotes_raw")
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 977, in execute
+    ret = self._execute_helper(query, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 694, in _execute_helper
+    ret = self._connection.cmd_query(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1328, in cmd_query
+    ret = self.rest.request(
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 493, in request
+    return self._post_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 758, in _post_request
+    raise ex.cause
+snowflake.connector.errors.ProgrammingError: 390114 (08001): None: Authentication token has expired.  The user must authenticate again.
+[2025-10-06T17:29:01.747+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=minio_to_snowflake, task_id=load_snowflake, run_id=scheduled__2025-10-06T08:35:00+00:00, execution_date=20251006T083500, start_date=20251006T084258, end_date=20251006T172901
+[2025-10-06T17:29:01.775+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task load_snowflake (390114 (08001): None: Authentication token has expired.  The user must authenticate again.; 3602)
+[2025-10-06T17:29:01.824+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-10-06T17:29:01.846+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-06T17:29:01.849+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

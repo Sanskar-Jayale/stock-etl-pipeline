@@ -1,0 +1,11 @@
+[2025-10-03T17:37:18.892+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/minio_to_snowflake.py
+[2025-10-03T17:37:18.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_snowflake.py for tasks to queue
+[2025-10-03T17:37:18.905+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:18.904+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_snowflake.py
+[2025-10-03T17:37:23.118+0000] {processor.py:840} INFO - DAG(s) 'minio_to_snowflake' retrieved from /opt/airflow/dags/minio_to_snowflake.py
+[2025-10-03T17:37:23.513+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.512+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:minio_to_snowflake
+[2025-10-03T17:37:23.528+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.528+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:minio_to_snowflake
+[2025-10-03T17:37:23.538+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.538+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:minio_to_snowflake
+[2025-10-03T17:37:23.540+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.539+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-03T17:37:23.557+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.556+0000] {dag.py:3111} INFO - Creating ORM DAG for minio_to_snowflake
+[2025-10-03T17:37:23.585+0000] {logging_mixin.py:188} INFO - [2025-10-03T17:37:23.585+0000] {dag.py:3947} INFO - Setting next_dagrun for minio_to_snowflake to 2025-10-03 17:36:00+00:00, run_after=2025-10-03 17:37:00+00:00
+[2025-10-03T17:37:23.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_snowflake.py took 4.769 seconds

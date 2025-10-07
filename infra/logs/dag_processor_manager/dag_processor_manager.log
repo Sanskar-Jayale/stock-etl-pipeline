@@ -1,0 +1,2266 @@
+[2025-10-03T13:52:48.177+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-03T13:52:48.179+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-03T13:52:48.180+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-03T13:52:48.182+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T13:52:48.187+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T13:57:48.208+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T13:57:48.221+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:02:48.265+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:02:48.270+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:07:49.162+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:07:49.175+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:12:49.230+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:12:49.242+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:17:49.347+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:17:49.354+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:22:49.449+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:22:49.461+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:27:50.315+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:27:50.326+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:32:50.895+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:32:50.905+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T14:43:28.379+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T14:43:28.447+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:26:53.953+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:26:54.019+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:31:54.679+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:31:54.687+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:36:55.522+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:36:55.537+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:37:58.695+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-03T15:40:49.068+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-03T15:40:49.069+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-03T15:40:49.074+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-03T15:40:49.076+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:40:49.082+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:45:49.816+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:45:49.824+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:50:50.665+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:50:50.679+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:54:43.701+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-03T15:55:10.760+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-03T15:55:10.761+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-03T15:55:10.762+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-03T15:55:10.763+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T15:55:10.768+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T15:58:37.466+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-03T16:02:33.031+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-03T16:02:33.032+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-03T16:02:33.033+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-03T16:02:33.034+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:02:33.038+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:07:33.794+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:07:33.803+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:11:48.857+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-03T16:12:57.864+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-03T16:12:57.865+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-03T16:12:57.867+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-03T16:12:57.868+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:12:57.872+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:17:58.600+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:17:58.609+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:22:58.755+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:22:58.762+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:27:58.903+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:27:58.919+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:33:30.267+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:33:30.281+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:38:30.343+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:38:30.352+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:43:30.419+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:43:30.433+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:48:30.500+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:48:30.510+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:53:30.507+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:53:30.524+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T16:58:30.564+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T16:58:30.574+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:07:18.129+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:07:18.142+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:12:18.150+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:12:18.159+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:17:18.206+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:17:18.212+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:22:18.332+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:22:18.349+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:27:18.429+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:27:18.447+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:32:18.515+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:32:18.531+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-03T17:37:18.602+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-03T17:37:18.677+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-03T17:37:34.804+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  4.88s           2025-10-03T17:37:23
+================================================================================
+[2025-10-04T03:46:41.407+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-04T03:46:41.453+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-04T03:46:57.218+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  10.47s          2025-10-04T03:46:51
+================================================================================
+[2025-10-05T11:54:07.233+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-05T11:54:07.496+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-05T11:54:31.641+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  4.44s           2025-10-05T11:54:12
+================================================================================
+[2025-10-05T11:54:41.052+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-06T05:21:07.819+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-06T05:21:07.829+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-06T05:21:07.831+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-06T05:21:07.836+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T05:21:07.866+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T05:21:07.996+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/minio_to_snowflake.py     31  0.06s             0           0
+================================================================================
+[2025-10-06T05:21:38.256+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  3.42s           2025-10-06T05:21:11
+================================================================================
+[2025-10-06T05:22:08.821+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.26s           2025-10-06T05:21:42
+================================================================================
+[2025-10-06T05:22:39.074+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.90s           2025-10-06T05:22:14
+================================================================================
+[2025-10-06T05:23:09.384+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.19s           2025-10-06T05:22:46
+================================================================================
+[2025-10-06T05:23:39.770+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           0  0.10s           2025-10-06T05:23:11
+================================================================================
+[2025-10-06T05:24:10.157+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           0  0.14s           2025-10-06T05:23:41
+================================================================================
+[2025-10-06T05:24:40.587+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           0  0.12s           2025-10-06T05:24:33
+================================================================================
+[2025-10-06T05:25:11.434+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py     67  0.01s             0           0  0.13s           2025-10-06T05:25:08
+================================================================================
+[2025-10-06T05:25:41.461+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  0.17s           2025-10-06T05:25:28
+================================================================================
+[2025-10-06T05:26:07.887+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T05:26:07.963+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T05:26:12.092+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py     88  0.01s             0           1  0.12s           2025-10-06T05:26:05
+================================================================================
+[2025-10-06T05:26:42.297+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.05s           2025-10-06T05:26:41
+================================================================================
+[2025-10-06T05:27:12.670+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    108  1.03s             0           1  1.05s           2025-10-06T05:26:41
+================================================================================
+[2025-10-06T05:27:43.001+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    111  0.01s             0           1  1.13s           2025-10-06T05:27:12
+================================================================================
+[2025-10-06T05:28:13.600+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    126  0.01s             0           1  1.27s           2025-10-06T05:28:09
+================================================================================
+[2025-10-06T05:28:44.299+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    141  1.01s             0           1  1.71s           2025-10-06T05:28:34
+================================================================================
+[2025-10-06T05:29:14.327+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.34s           2025-10-06T05:29:11
+================================================================================
+[2025-10-06T05:29:44.965+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.10s           2025-10-06T05:29:42
+================================================================================
+[2025-10-06T05:30:15.582+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.06s           2025-10-06T05:30:09
+================================================================================
+[2025-10-06T05:30:46.026+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    192  0.81s             0           1  1.16s           2025-10-06T05:30:38
+================================================================================
+[2025-10-06T05:31:08.136+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T05:31:08.217+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T05:31:16.319+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.28s           2025-10-06T05:31:05
+================================================================================
+[2025-10-06T05:31:46.485+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.62s           2025-10-06T05:31:44
+================================================================================
+[2025-10-06T05:32:16.690+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.22s           2025-10-06T05:32:10
+================================================================================
+[2025-10-06T05:32:46.928+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.13s           2025-10-06T05:32:40
+================================================================================
+[2025-10-06T05:33:17.141+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    265  0.01s             0           1  0.14s           2025-10-06T05:33:05
+================================================================================
+[2025-10-06T05:33:47.248+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.44s           2025-10-06T05:33:45
+================================================================================
+[2025-10-06T05:34:17.573+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  1.69s           2025-10-06T05:34:14
+================================================================================
+[2025-10-06T05:34:47.957+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           0           1  0.12s           2025-10-06T05:34:45
+================================================================================
+[2025-10-06T05:35:18.164+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    334  0.75s             0           1  1.23s           2025-10-06T05:35:15
+================================================================================
+[2025-10-06T05:35:47.124+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-06T08:08:14.453+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-06T08:08:14.455+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-06T08:08:14.456+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-06T08:08:14.458+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:08:14.503+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:08:14.643+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/minio_to_snowflake.py     31  0.06s             0           0
+================================================================================
+[2025-10-06T08:08:44.915+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  4.81s           2025-10-06T08:08:19
+================================================================================
+[2025-10-06T08:09:15.120+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.37s           2025-10-06T08:08:51
+================================================================================
+[2025-10-06T08:09:45.426+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.18s           2025-10-06T08:09:22
+================================================================================
+[2025-10-06T08:10:15.856+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.36s           2025-10-06T08:09:53
+================================================================================
+[2025-10-06T08:10:46.174+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.16s           2025-10-06T08:10:25
+================================================================================
+[2025-10-06T08:11:16.470+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.07s           2025-10-06T08:10:56
+================================================================================
+[2025-10-06T08:11:46.834+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.29s           2025-10-06T08:11:27
+================================================================================
+[2025-10-06T08:12:17.391+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.32s           2025-10-06T08:11:59
+================================================================================
+[2025-10-06T08:12:47.715+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.40s           2025-10-06T08:12:30
+================================================================================
+[2025-10-06T08:13:14.543+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:13:14.600+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:13:18.369+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.24s           2025-10-06T08:13:02
+================================================================================
+[2025-10-06T08:13:48.668+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.10s           2025-10-06T08:13:33
+================================================================================
+[2025-10-06T08:14:18.960+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.20s           2025-10-06T08:14:05
+================================================================================
+[2025-10-06T08:14:49.371+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.56s           2025-10-06T08:14:36
+================================================================================
+[2025-10-06T08:15:19.693+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py     73  2.03s             1           0  1.68s           2025-10-06T08:15:08
+================================================================================
+[2025-10-06T08:15:50.095+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T08:15:22
+================================================================================
+[2025-10-06T08:16:20.523+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T08:15:53
+================================================================================
+[2025-10-06T08:16:50.941+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.21s           2025-10-06T08:16:24
+================================================================================
+[2025-10-06T08:17:21.268+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.49s           2025-10-06T08:16:56
+================================================================================
+[2025-10-06T08:17:51.264+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.21s           2025-10-06T08:17:28
+================================================================================
+[2025-10-06T08:18:15.052+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:18:15.102+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:18:21.520+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.78s           2025-10-06T08:17:59
+================================================================================
+[2025-10-06T08:18:51.725+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.36s           2025-10-06T08:18:48
+================================================================================
+[2025-10-06T08:19:22.150+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.30s           2025-10-06T08:19:20
+================================================================================
+[2025-10-06T08:19:52.749+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.27s           2025-10-06T08:19:32
+================================================================================
+[2025-10-06T08:20:23.380+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.26s           2025-10-06T08:20:20
+================================================================================
+[2025-10-06T08:20:53.785+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.26s           2025-10-06T08:20:51
+================================================================================
+[2025-10-06T08:21:24.220+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.16s           2025-10-06T08:21:23
+================================================================================
+[2025-10-06T08:21:54.525+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    121  1.02s             1           0  1.16s           2025-10-06T08:21:23
+================================================================================
+[2025-10-06T08:22:24.880+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.50s           2025-10-06T08:21:55
+================================================================================
+[2025-10-06T08:22:54.903+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.34s           2025-10-06T08:22:26
+================================================================================
+[2025-10-06T08:23:15.071+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:23:15.109+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:23:25.211+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.49s           2025-10-06T08:22:58
+================================================================================
+[2025-10-06T08:23:55.929+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.13s           2025-10-06T08:23:30
+================================================================================
+[2025-10-06T08:24:26.308+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.29s           2025-10-06T08:24:02
+================================================================================
+[2025-10-06T08:24:56.803+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.28s           2025-10-06T08:24:33
+================================================================================
+[2025-10-06T08:25:27.191+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.47s           2025-10-06T08:25:05
+================================================================================
+[2025-10-06T08:25:57.585+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.83s           2025-10-06T08:25:37
+================================================================================
+[2025-10-06T08:26:27.998+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.28s           2025-10-06T08:26:09
+================================================================================
+[2025-10-06T08:26:58.009+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.68s           2025-10-06T08:26:41
+================================================================================
+[2025-10-06T08:27:28.746+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.45s           2025-10-06T08:27:13
+================================================================================
+[2025-10-06T08:27:59.092+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.51s           2025-10-06T08:27:45
+================================================================================
+[2025-10-06T08:28:15.303+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:28:15.351+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:28:29.870+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.24s           2025-10-06T08:28:16
+================================================================================
+[2025-10-06T08:29:00.166+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.14s           2025-10-06T08:28:48
+================================================================================
+[2025-10-06T08:29:30.555+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.53s           2025-10-06T08:29:19
+================================================================================
+[2025-10-06T08:30:00.780+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.53s           2025-10-06T08:29:51
+================================================================================
+[2025-10-06T08:30:31.136+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.16s           2025-10-06T08:30:23
+================================================================================
+[2025-10-06T08:31:01.530+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T08:30:54
+================================================================================
+[2025-10-06T08:31:31.940+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.21s           2025-10-06T08:31:25
+================================================================================
+[2025-10-06T08:32:02.359+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.24s           2025-10-06T08:31:57
+================================================================================
+[2025-10-06T08:32:32.877+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.31s           2025-10-06T08:32:28
+================================================================================
+[2025-10-06T08:33:03.118+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.81s           2025-10-06T08:33:01
+================================================================================
+[2025-10-06T08:33:15.441+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:33:15.499+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:33:33.470+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.18s           2025-10-06T08:33:32
+================================================================================
+[2025-10-06T08:34:03.811+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    190  1.01s             1           0  1.18s           2025-10-06T08:33:32
+================================================================================
+[2025-10-06T08:34:34.133+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py    193  0.01s             1           0  1.07s           2025-10-06T08:34:03
+================================================================================
+[2025-10-06T08:35:04.491+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.28s           2025-10-06T08:34:35
+================================================================================
+[2025-10-06T08:35:34.995+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.30s           2025-10-06T08:35:06
+================================================================================
+[2025-10-06T08:36:05.358+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.22s           2025-10-06T08:35:38
+================================================================================
+[2025-10-06T08:36:35.478+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.84s           2025-10-06T08:36:10
+================================================================================
+[2025-10-06T08:37:06.082+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.34s           2025-10-06T08:36:41
+================================================================================
+[2025-10-06T08:37:36.436+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.47s           2025-10-06T08:37:13
+================================================================================
+[2025-10-06T08:38:07.182+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.26s           2025-10-06T08:37:45
+================================================================================
+[2025-10-06T08:38:15.510+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:38:15.541+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:38:37.780+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.46s           2025-10-06T08:38:16
+================================================================================
+[2025-10-06T08:39:08.283+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.27s           2025-10-06T08:38:48
+================================================================================
+[2025-10-06T08:39:38.718+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.36s           2025-10-06T08:39:20
+================================================================================
+[2025-10-06T08:40:09.065+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T08:39:52
+================================================================================
+[2025-10-06T08:40:39.709+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.49s           2025-10-06T08:40:38
+================================================================================
+[2025-10-06T08:41:10.259+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.29s           2025-10-06T08:40:58
+================================================================================
+[2025-10-06T08:41:40.413+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.86s           2025-10-06T08:41:30
+================================================================================
+[2025-10-06T08:42:10.768+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.17s           2025-10-06T08:42:01
+================================================================================
+[2025-10-06T08:42:41.523+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.35s           2025-10-06T08:42:31
+================================================================================
+[2025-10-06T08:43:12.064+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T08:42:58
+================================================================================
+[2025-10-06T08:43:16.095+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T08:43:16.170+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T08:43:42.428+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.98s           2025-10-06T08:43:31
+================================================================================
+[2025-10-06T08:44:12.822+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.18s           2025-10-06T08:44:02
+================================================================================
+[2025-10-06T08:44:43.177+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.11s           2025-10-06T08:44:34
+================================================================================
+[2025-10-06T08:45:13.501+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.13s           2025-10-06T08:45:05
+================================================================================
+[2025-10-06T08:45:43.958+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.19s           2025-10-06T08:45:36
+================================================================================
+[2025-10-06T08:46:14.937+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.21s           2025-10-06T08:46:08
+================================================================================
+[2025-10-06T17:28:02.324+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T17:28:03.618+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T17:28:28.228+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.53s           2025-10-06T17:28:06
+================================================================================
+[2025-10-06T17:28:58.410+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.99s           2025-10-06T17:28:37
+================================================================================
+[2025-10-06T17:29:28.584+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.83s           2025-10-06T17:29:08
+================================================================================
+[2025-10-06T17:29:58.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.93s           2025-10-06T17:29:39
+================================================================================
+[2025-10-06T17:30:28.817+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.77s           2025-10-06T17:30:10
+================================================================================
+[2025-10-06T17:30:58.829+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.82s           2025-10-06T17:30:41
+================================================================================
+[2025-10-06T17:31:29.034+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.97s           2025-10-06T17:31:12
+================================================================================
+[2025-10-06T17:31:59.329+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.87s           2025-10-06T17:31:44
+================================================================================
+[2025-10-06T17:32:30.169+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.70s           2025-10-06T17:32:15
+================================================================================
+[2025-10-06T17:33:00.357+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.84s           2025-10-06T17:32:46
+================================================================================
+[2025-10-06T17:33:02.369+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T17:33:02.385+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T17:33:30.641+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.05s           2025-10-06T17:33:17
+================================================================================
+[2025-10-06T17:34:00.940+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.68s           2025-10-06T17:33:48
+================================================================================
+[2025-10-06T17:34:31.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.82s           2025-10-06T17:34:19
+================================================================================
+[2025-10-06T17:35:01.387+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.89s           2025-10-06T17:34:50
+================================================================================
+[2025-10-06T17:35:31.602+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.68s           2025-10-06T17:35:21
+================================================================================
+[2025-10-06T17:36:02.127+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.76s           2025-10-06T17:35:52
+================================================================================
+[2025-10-06T17:36:32.795+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.23s           2025-10-06T17:36:23
+================================================================================
+[2025-10-06T17:37:03.224+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-06T17:36:54
+================================================================================
+[2025-10-06T17:37:33.414+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.70s           2025-10-06T17:37:25
+================================================================================
+[2025-10-06T17:38:02.380+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T17:38:02.414+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-06T17:38:03.440+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.70s           2025-10-06T17:37:56
+================================================================================
+[2025-10-06T17:38:33.456+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-06T17:38:27
+================================================================================
+[2025-10-06T17:39:03.525+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.80s           2025-10-06T17:38:58
+================================================================================
+[2025-10-06T17:39:33.724+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-06T17:39:29
+================================================================================
+[2025-10-06T17:40:03.954+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.76s           2025-10-06T17:40:00
+================================================================================
+[2025-10-06T17:40:34.192+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.72s           2025-10-06T17:40:31
+================================================================================
+[2025-10-06T17:41:04.428+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-06T17:41:02
+================================================================================
+[2025-10-06T17:41:34.537+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.86s           2025-10-06T17:41:33
+================================================================================
+[2025-10-06T17:42:04.814+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.01s           2025-10-06T17:42:04
+================================================================================
+[2025-10-06T18:56:13.011+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T01:54:04.597+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T01:54:04.957+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T01:54:05.167+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T01:54:15.820+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  8.80s           2025-10-07T01:54:13
+================================================================================
+[2025-10-07T08:31:25.096+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:31:29.363+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:31:43.865+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  7.81s           2025-10-07T08:31:37
+================================================================================
+[2025-10-07T08:32:14.848+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py  15918  6.27s             1           0  7.81s           2025-10-07T08:31:37
+================================================================================
+[2025-10-07T08:32:45.681+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  7.41s           2025-10-07T08:32:15
+================================================================================
+[2025-10-07T08:33:16.383+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.83s           2025-10-07T08:32:47
+================================================================================
+[2025-10-07T08:33:47.078+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.28s           2025-10-07T08:33:18
+================================================================================
+[2025-10-07T08:34:17.557+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.19s           2025-10-07T08:33:50
+================================================================================
+[2025-10-07T08:34:47.656+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.65s           2025-10-07T08:34:22
+================================================================================
+[2025-10-07T08:35:18.170+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.15s           2025-10-07T08:34:53
+================================================================================
+[2025-10-07T08:35:48.246+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.32s           2025-10-07T08:35:25
+================================================================================
+[2025-10-07T08:36:18.610+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.24s           2025-10-07T08:35:57
+================================================================================
+[2025-10-07T08:36:25.681+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:36:25.712+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:36:49.241+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.14s           2025-10-07T08:36:28
+================================================================================
+[2025-10-07T08:37:19.251+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.29s           2025-10-07T08:37:00
+================================================================================
+[2025-10-07T08:37:49.341+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.83s           2025-10-07T08:37:33
+================================================================================
+[2025-10-07T08:38:19.677+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.17s           2025-10-07T08:38:04
+================================================================================
+[2025-10-07T08:38:50.202+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.38s           2025-10-07T08:38:36
+================================================================================
+[2025-10-07T08:39:20.671+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.24s           2025-10-07T08:39:07
+================================================================================
+[2025-10-07T08:39:51.086+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.39s           2025-10-07T08:39:39
+================================================================================
+[2025-10-07T08:40:21.433+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.08s           2025-10-07T08:40:10
+================================================================================
+[2025-10-07T08:40:51.804+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.43s           2025-10-07T08:40:42
+================================================================================
+[2025-10-07T08:41:22.100+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.42s           2025-10-07T08:41:14
+================================================================================
+[2025-10-07T08:41:25.731+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:41:25.792+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:41:52.438+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.16s           2025-10-07T08:41:45
+================================================================================
+[2025-10-07T08:42:22.887+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.45s           2025-10-07T08:42:17
+================================================================================
+[2025-10-07T08:42:53.610+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.22s           2025-10-07T08:42:48
+================================================================================
+[2025-10-07T08:43:23.645+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.72s           2025-10-07T08:43:20
+================================================================================
+[2025-10-07T08:43:53.785+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.80s           2025-10-07T08:43:52
+================================================================================
+[2025-10-07T08:44:24.098+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py  18018  1.02s             1           0  1.80s           2025-10-07T08:43:52
+================================================================================
+[2025-10-07T08:44:54.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py  18078  0.01s             1           0  1.08s           2025-10-07T08:44:24
+================================================================================
+[2025-10-07T08:45:24.820+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.10s           2025-10-07T08:44:55
+================================================================================
+[2025-10-07T08:45:55.085+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.50s           2025-10-07T08:45:28
+================================================================================
+[2025-10-07T08:46:25.945+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:46:25.983+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:46:26.009+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.04s           2025-10-07T08:45:59
+================================================================================
+[2025-10-07T08:46:56.369+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.10s           2025-10-07T08:46:31
+================================================================================
+[2025-10-07T08:47:26.658+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.08s           2025-10-07T08:47:02
+================================================================================
+[2025-10-07T08:47:57.019+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.09s           2025-10-07T08:47:33
+================================================================================
+[2025-10-07T08:48:27.139+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.85s           2025-10-07T08:48:04
+================================================================================
+[2025-10-07T08:48:57.272+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.90s           2025-10-07T08:48:36
+================================================================================
+[2025-10-07T08:49:27.476+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.86s           2025-10-07T08:49:07
+================================================================================
+[2025-10-07T08:49:57.832+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.99s           2025-10-07T08:49:39
+================================================================================
+[2025-10-07T08:50:27.948+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.89s           2025-10-07T08:50:10
+================================================================================
+[2025-10-07T08:50:58.170+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.98s           2025-10-07T08:50:42
+================================================================================
+[2025-10-07T08:51:26.399+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:51:26.429+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:51:28.455+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.11s           2025-10-07T08:51:13
+================================================================================
+[2025-10-07T08:51:58.605+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.91s           2025-10-07T08:51:44
+================================================================================
+[2025-10-07T08:52:28.963+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.04s           2025-10-07T08:52:15
+================================================================================
+[2025-10-07T08:52:59.204+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.04s           2025-10-07T08:52:47
+================================================================================
+[2025-10-07T08:53:29.446+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-07T08:53:18
+================================================================================
+[2025-10-07T08:53:59.697+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-07T08:53:49
+================================================================================
+[2025-10-07T08:54:29.963+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.76s           2025-10-07T08:54:20
+================================================================================
+[2025-10-07T08:55:00.371+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T08:54:50
+================================================================================
+[2025-10-07T08:55:30.609+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T08:55:21
+================================================================================
+[2025-10-07T08:56:01.188+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.15s           2025-10-07T08:55:53
+================================================================================
+[2025-10-07T08:56:26.522+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T08:56:26.540+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T08:56:31.256+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.81s           2025-10-07T08:56:24
+================================================================================
+[2025-10-07T08:57:01.300+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T08:56:55
+================================================================================
+[2025-10-07T08:57:31.412+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.87s           2025-10-07T08:57:26
+================================================================================
+[2025-10-07T08:58:01.473+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.80s           2025-10-07T08:57:57
+================================================================================
+[2025-10-07T08:58:31.532+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.92s           2025-10-07T08:58:28
+================================================================================
+[2025-10-07T08:59:01.886+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T08:58:59
+================================================================================
+[2025-10-07T08:59:32.135+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.97s           2025-10-07T08:59:30
+================================================================================
+[2025-10-07T09:00:02.364+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.94s           2025-10-07T09:00:01
+================================================================================
+[2025-10-07T09:00:32.561+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py  19345  0.47s             1           0  0.94s           2025-10-07T09:00:01
+================================================================================
+[2025-10-07T09:01:02.599+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.32s           2025-10-07T09:00:33
+================================================================================
+[2025-10-07T09:01:26.885+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:01:26.917+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:01:33.016+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  2.42s           2025-10-07T09:01:06
+================================================================================
+[2025-10-07T09:02:03.283+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.99s           2025-10-07T09:01:38
+================================================================================
+[2025-10-07T09:02:33.497+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.85s           2025-10-07T09:02:09
+================================================================================
+[2025-10-07T09:03:03.719+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.90s           2025-10-07T09:02:40
+================================================================================
+[2025-10-07T09:03:33.808+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.86s           2025-10-07T09:03:11
+================================================================================
+[2025-10-07T09:04:04.311+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-07T09:03:42
+================================================================================
+[2025-10-07T09:04:35.048+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.09s           2025-10-07T09:04:13
+================================================================================
+[2025-10-07T09:05:05.052+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T09:04:44
+================================================================================
+[2025-10-07T09:05:35.595+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.71s           2025-10-07T09:05:15
+================================================================================
+[2025-10-07T09:06:05.839+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:05:46
+================================================================================
+[2025-10-07T09:06:26.917+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:06:26.933+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:06:35.999+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.70s           2025-10-07T09:06:17
+================================================================================
+[2025-10-07T09:07:06.538+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-07T09:06:48
+================================================================================
+[2025-10-07T09:07:36.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:07:19
+================================================================================
+[2025-10-07T09:08:06.934+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:07:50
+================================================================================
+[2025-10-07T09:08:36.953+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:08:21
+================================================================================
+[2025-10-07T09:09:06.974+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.80s           2025-10-07T09:08:52
+================================================================================
+[2025-10-07T09:09:37.240+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.22s           2025-10-07T09:09:24
+================================================================================
+[2025-10-07T09:10:07.296+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:09:55
+================================================================================
+[2025-10-07T09:10:37.395+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.86s           2025-10-07T09:10:26
+================================================================================
+[2025-10-07T09:11:07.651+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.96s           2025-10-07T09:10:57
+================================================================================
+[2025-10-07T09:11:27.179+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:11:27.229+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:11:38.324+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-07T09:11:28
+================================================================================
+[2025-10-07T09:12:08.580+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-07T09:11:59
+================================================================================
+[2025-10-07T09:12:38.588+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:12:30
+================================================================================
+[2025-10-07T09:13:08.649+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-07T09:13:01
+================================================================================
+[2025-10-07T09:13:38.683+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-07T09:13:32
+================================================================================
+[2025-10-07T09:14:08.967+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.18s           2025-10-07T09:14:04
+================================================================================
+[2025-10-07T09:14:39.083+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.85s           2025-10-07T09:14:35
+================================================================================
+[2025-10-07T09:15:09.126+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.83s           2025-10-07T09:15:06
+================================================================================
+[2025-10-07T09:15:39.140+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.82s           2025-10-07T09:15:37
+================================================================================
+[2025-10-07T09:16:09.976+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:16:08
+================================================================================
+[2025-10-07T09:16:27.237+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:16:27.264+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:16:40.066+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.91s           2025-10-07T09:16:39
+================================================================================
+[2025-10-07T09:17:10.093+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.81s           2025-10-07T09:17:10
+================================================================================
+[2025-10-07T09:17:40.284+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py  25151  0.00s             1           0  0.81s           2025-10-07T09:17:10
+================================================================================
+[2025-10-07T09:18:11.041+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.55s           2025-10-07T09:17:41
+================================================================================
+[2025-10-07T09:18:41.243+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.73s           2025-10-07T09:18:12
+================================================================================
+[2025-10-07T09:19:11.452+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.32s           2025-10-07T09:18:44
+================================================================================
+[2025-10-07T09:19:41.733+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.77s           2025-10-07T09:19:15
+================================================================================
+[2025-10-07T09:20:12.001+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.84s           2025-10-07T09:19:46
+================================================================================
+[2025-10-07T09:20:42.242+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:20:17
+================================================================================
+[2025-10-07T09:21:12.461+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:20:48
+================================================================================
+[2025-10-07T09:21:27.485+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:21:27.519+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:21:42.642+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.91s           2025-10-07T09:21:19
+================================================================================
+[2025-10-07T09:22:12.725+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.85s           2025-10-07T09:21:50
+================================================================================
+[2025-10-07T09:22:43.198+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.71s           2025-10-07T09:22:21
+================================================================================
+[2025-10-07T09:23:13.395+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T09:22:52
+================================================================================
+[2025-10-07T09:23:43.598+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.91s           2025-10-07T09:23:23
+================================================================================
+[2025-10-07T09:24:14.004+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.37s           2025-10-07T09:23:55
+================================================================================
+[2025-10-07T09:24:44.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.87s           2025-10-07T09:24:25
+================================================================================
+[2025-10-07T09:25:14.189+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.78s           2025-10-07T09:24:57
+================================================================================
+[2025-10-07T09:25:44.396+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.94s           2025-10-07T09:25:28
+================================================================================
+[2025-10-07T09:26:15.072+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:25:59
+================================================================================
+[2025-10-07T09:26:28.165+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:26:28.188+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:26:45.334+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.82s           2025-10-07T09:26:30
+================================================================================
+[2025-10-07T09:27:15.361+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.79s           2025-10-07T09:27:01
+================================================================================
+[2025-10-07T09:27:45.849+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.69s           2025-10-07T09:27:32
+================================================================================
+[2025-10-07T09:28:16.047+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.89s           2025-10-07T09:28:03
+================================================================================
+[2025-10-07T09:28:46.660+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.17s           2025-10-07T09:28:34
+================================================================================
+[2025-10-07T09:29:16.668+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.77s           2025-10-07T09:29:05
+================================================================================
+[2025-10-07T09:29:47.253+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.74s           2025-10-07T09:29:36
+================================================================================
+[2025-10-07T09:30:17.519+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.82s           2025-10-07T09:30:07
+================================================================================
+[2025-10-07T09:30:47.962+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.72s           2025-10-07T09:30:38
+================================================================================
+[2025-10-07T09:31:18.166+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.85s           2025-10-07T09:31:09
+================================================================================
+[2025-10-07T09:31:28.242+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-07T09:31:28.257+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-07T09:31:48.467+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.81s           2025-10-07T09:31:40
+================================================================================
+[2025-10-07T09:32:18.505+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.77s           2025-10-07T09:32:11
+================================================================================
+[2025-10-07T09:32:48.674+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.92s           2025-10-07T09:32:42
+================================================================================
+[2025-10-07T09:33:18.855+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.96s           2025-10-07T09:33:13
+================================================================================
+[2025-10-07T09:33:49.120+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  1.17s           2025-10-07T09:33:45
+================================================================================
+[2025-10-07T09:34:19.186+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.77s           2025-10-07T09:34:16
+================================================================================
+[2025-10-07T09:34:49.770+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/minio_to_snowflake.py                           1           0  0.75s           2025-10-07T09:34:47
+================================================================================
+[2025-10-07T09:35:09.009+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
